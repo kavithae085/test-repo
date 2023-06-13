@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        h4 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #5c0808;
+            text-decoration: underline;
+            padding: 10px 0 0 0;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #5c0808;
+            padding: 10px 0 0 0;
+        }
+        legend{
+            width: auto;
+        }
+        table td{
+            padding: 10px;
+        }
+        .txt_row{
+            line-height: 200%;
+        }
+        
+        .txt_row_head:nth-child(odd){
+            background-color: #b7c4d8;
+        }
+        .txt_row:hover{
+            background-color: #dbd6d6;
+            color: #000;
+            cursor: context-menu;
+        }
+        .txt_row span {
+            color: #3463bd;
+            padding: 2px;
+            border: 1px solid red;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div style="padding:5px;max-width: 75%;margin: 0 auto;">
+        <?php include_once $this->template_dir . $template_file; ?>
+    </div>
+    
+</body>
+
+</html>
